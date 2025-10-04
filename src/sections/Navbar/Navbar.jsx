@@ -14,7 +14,8 @@ function Navbar() {
 
           <li>
             <Link to="/education">
-              <button className='hover'>Education</button>
+            <button className='hover'>Education</button>
+
             </Link>
           </li>
         </ul>

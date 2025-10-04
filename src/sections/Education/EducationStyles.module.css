@@ -1,13 +1,14 @@
 /* Container styling */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-    width: 100%;
-    box-sizing: border-box;
-    color: var(--text-color, #222);
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 5rem 2rem;
+  background: var(--background-color); /* follows theme */
+  color: var(--text-color); /* follows theme */ 
+  
+}
 
   
   /* Education list wrapper */

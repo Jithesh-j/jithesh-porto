@@ -10,7 +10,7 @@ function Education() {
             degree = "M.Sc. Computer Science"
             duriation = "Spetember, 2023 - June, 2025"
         />
-        <EducationList 
+        <EducationList  
             CollegeName="• Sree Vidyanikethan Engineering College"
             degree = "B.Tech. Computer Science"
             duriation = "June, 2018 - June, 2022"
