@@ -33,8 +33,8 @@ function App() {
         />
 
         {/* Experience route */}
-        <Route path="/expirence" element={<Expirence />} />
-        <Route path="/education" element={<Education />} />
+        <Route path="/jithesh-porto/expirence" element={<Expirence />} />
+        <Route path="/jithesh-porto/education" element={<Education />} />
       </Routes>
     </Router>
   );
