@@ -16,12 +16,13 @@ import Education from './sections/Education/Education'
 */}
 function App() {
   return (
-    <Router basename="/jithesh-porto/">
+    <Router basename="/jithesh-porto">
+      <Navbar></Navbar>
       <Routes>
         {/* Home route */}
         <Route path="/" element={
             <>
-            <Navbar></Navbar>
+            
               <Hero />
               <Projects />
               <Skills />
