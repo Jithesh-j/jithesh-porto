@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    padding: 4rem 2rem;
+    min-height: 100dvh;
+    background: var(--background-color); /* follows theme */
+    color: var(--text-color); /* follows theme */ 
+    
+  }
+ 
+  .ExpirenceCard{
+
+    h4{
+      text-align: end;
+      color:cornflowerblue;
+    }
+
+  } 
+
+  hr{
+    width: 100px;
+    height: 1px;
+    border: none;
+    background-color: var(--text-color);
+    margin: 30px auto;
+    
+}
+  /* --- Responsive Breakpoints --- */
+  @media (width >= 800px) {
+    .container {
+      padding: 6rem 4rem;
+    }
+  
+    .expBlock h3 {
+      font-size: 1.75rem;
+    }
+  
+    .expBlock p {
+      font-size: 1.05rem;
+    }
+  }
+  
+  @media (width >= 1200px) {
+    .sectionTitle {
+      font-size: 3rem;
+    }
+  
+    .expBlock h3 {
+      font-size: 2rem;
+    }
+  }
+  

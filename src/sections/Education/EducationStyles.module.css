@@ -1,0 +1,88 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--text-color, #222);
+  }
+
+  
+  /* Education list wrapper */
+  .EducationList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   
+  }
+
+  
+  .EducationList span:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 2px var(--text-color);
+    border-radius: 10px;
+    padding: 2px 2px;
+        /* Smooth transition for transform and box-shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  
+  /* College Name and Degree */
+  .EducationList h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: var(--text-color, #222);
+  }
+  
+  .EducationList h2 h3 {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+  /* Duration */
+  .EducationList i {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #777;
+    display: block;
+    margin-top: 6px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .sectionTitle {
+      font-size: 2rem;
+    }
+    .EducationList h2 {
+      font-size: 1.2rem;
+    }
+    .EducationList h2 h3 {
+      font-size: 1rem;
+    }
+    .EducationList i {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sectionTitle {
+      font-size: 1.8rem;
+    }
+    .EducationList h2 {
+      font-size: 1.1rem;
+    }
+    .EducationList h2 h3 {
+      font-size: 0.95rem;
+    }
+    .EducationList i {
+      font-size: 0.85rem;
+    }
+  }
+  

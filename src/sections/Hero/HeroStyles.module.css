@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+
+.hero{
+    max-width: 200px;
+    border-radius: 360px;
+    border-bottom-left-radius:5000px ;
+    border-bottom-right-radius:500px;
+}
+span{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    a {
+        margin: 0;
+        text-decoration: none;
+        img{
+        width: 30px;
+        }
+        p{ 
+            font-size: 10px;
+        }
+
+    }
+    }
+    a {
+        width: fit-content;
+        align-self: center;
+    }
+    button{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 10px;
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+
+    }
+    button:hover{
+        transform: scale(1.1);
+
+    }
+    button:active{
+        transform: translateY(2px);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    }
+    .colorModeContainer{
+        position: relative;
+    }
+    
+}
+.colorMode{
+    position: relative;
+    bottom: 400px;
+    right: 400px;
+    width: 25px;
+}
+
+.colorMode:hover{
+    cursor: pointer;
+}
+.description{
+    max-width: 50ch;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (width >= 800px)
+{
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        .hero{
+            max-width: 350px;
+            width: 350px;
+        }
+        .colorMode{
+            position: relative;
+            bottom: 450px;
+            right: 215px;
+            width: 25px;
+        }
+    }
+
+}
+@media (width >= 1000px) {
+    .container{
+        .colorMode{
+            position: relative;
+            bottom:450px;
+            right: 445px;
+            width: 25px;
+        }
+
+    }
+    
+}
+
+@media (width >= 1400px)
+{
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        .hero{
+            max-width: 400px;
+            width: 400px;
+        }
+    }
+
+}
+
+@media (width >= 300px)
+{
+    .colorMode{
+        position: relative;
+        bottom: 225px;
+        right: 240px;
+        width: 25px;
+    }
+
+}
+
