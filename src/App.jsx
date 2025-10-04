@@ -16,7 +16,7 @@ import Education from './sections/Education/Education'
 */}
 function App() {
   return (
-    <Router basename="/jithesh-porto">
+    <Router basename="/jithesh-porto/">
       <Routes>
         {/* Home route */}
         <Route path="/" element={
