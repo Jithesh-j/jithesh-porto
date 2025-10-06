@@ -27,7 +27,7 @@ body{
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap:60px;
 } 
 
 h1,h2,h3,p{
@@ -88,4 +88,11 @@ p{
   .sectionTitle{
     margin-bottom: 75px;
   }
+}
+@media (width >= 300px){
+  #root {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+  } 
 }
