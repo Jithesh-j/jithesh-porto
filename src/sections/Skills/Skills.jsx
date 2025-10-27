@@ -17,6 +17,9 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="Angular" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="HTML" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="CSS" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="PyTorch" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="NumPy" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="tiktoken" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="Django" ></SkillList>
         </div>  
         <hr></hr>
