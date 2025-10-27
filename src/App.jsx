@@ -22,7 +22,6 @@ function App() {
         {/* Home route */}
         <Route path="/" element={
             <>
-            
               <Hero />
               <Projects />
               <Skills />
