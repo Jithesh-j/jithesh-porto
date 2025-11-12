@@ -26,6 +26,9 @@ function Skills() {
         <div className={styles.skillList}>
             <SkillList src ={checkMarkIcon} skill ="GIT" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="AWS" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="CI/CD Pipeline" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Docker" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Jenkins" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="Selenium" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="StripeAPI" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="SpotifyAPI" ></SkillList>
