@@ -11,7 +11,7 @@ import GitHubIcondark from '../../assets/github-dark.svg'
 
 import Resume from '../../assets/Resume.pdf'
 import { useTheme } from '../../common/Themecontext'
-function Hero() {
+function Hero() { 
     const {theme, toggleTheme} = useTheme();
     const themeIcon = theme === 'light'? sun : dark;
     const twitterIcon = theme === 'light' ? twitterIconlight: twitterIcondark;
@@ -55,7 +55,14 @@ function Hero() {
     <a href={Resume}>
         <button className='hover'> Resume </button>
     </a>
+    <div className={styles.arrow}>
+      <p> Projects & More..</p>
+      <p>&#8595;</p>
+
+    </div>
+    
   </div>
+  
 
   </section>
   

@@ -72,6 +72,11 @@ span{
 .description{
     max-width: 50ch;
 }
+.arrow{
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+}
 .info{
     display: flex;
     flex-direction: column;
