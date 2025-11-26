@@ -55,15 +55,14 @@ function Hero() {
     <a href={Resume}>
         <button className='hover'> Resume </button>
     </a>
+    
     <div className={styles.arrow}>
       <p> Projects & More..</p>
       <p>&#8595;</p>
-
     </div>
-    
+  
   </div>
   
-
   </section>
   
 }

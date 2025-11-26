@@ -99,7 +99,7 @@
   }
   @media (width>= 300px) {
     .navbar {
-      padding: 10px;
+      padding: 5px;
       background-color: var(--text-color)
     }
 
