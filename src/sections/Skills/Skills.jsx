@@ -18,9 +18,11 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="HTML" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="CSS" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="PyTorch" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Matplotlib" ></SkillList> 
+            <SkillList src ={checkMarkIcon} skill ="torchvision"></SkillList> 
             <SkillList src ={checkMarkIcon} skill ="NumPy" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="tiktoken" ></SkillList>
-            <SkillList src ={checkMarkIcon} skill ="Django" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Django" ></SkillList> 
         </div>  
         <hr></hr>
         <div className={styles.skillList}>
@@ -31,7 +33,9 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="Jenkins" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="Selenium" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="StripeAPI" ></SkillList>
-            <SkillList src ={checkMarkIcon} skill ="SpotifyAPI" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="SpotifyAPI" ></SkillList> 
+            <SkillList src ={checkMarkIcon} skill ="Jupyter Notebook" ></SkillList>
+            
         </div>  
 
 
