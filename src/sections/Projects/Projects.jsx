@@ -5,6 +5,7 @@ import freshBurger from '../../assets/fresh-burger.png'
 import ecommerce from '../../assets/e-commerce.webp'
 import reRecipe from '../../assets/cookbook.webp'
 import ChatGpt from '../../assets/chatgpt.png'
+import FoodIdentifier from '../../assets/FoodIdentifier.png'
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
@@ -22,7 +23,12 @@ function Projects() {
                       p="My own AI chat system" 
                       githubLink = "(Github)"> 
           </ProjectCard>
-          
+          <ProjectCard src = {FoodIdentifier} 
+                      link = 'https://github.com/Jithesh-j/FoodIdentifier' 
+                      h3 ="Food Identifier"
+                      p="A CNN model for Identifying Food" 
+                      githubLink = "(Github)"> 
+          </ProjectCard>
           <ProjectCard src = {brickgame} 
                       link = 'https://github.com/Jithesh-j/Brick' 
                       h3 ="Brick Game"
@@ -36,6 +42,7 @@ function Projects() {
                       p="A Cooking Website" 
                       githubLink = "(Github)"> 
           </ProjectCard>
+          
         </div>
     </section> 
   )
