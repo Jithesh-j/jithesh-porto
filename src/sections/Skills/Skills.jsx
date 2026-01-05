@@ -26,8 +26,6 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="Matplotlib" ></SkillList> 
             <SkillList src ={checkMarkIcon} skill ="torchvision"></SkillList> 
             <SkillList src ={checkMarkIcon} skill ="NumPy" ></SkillList>
-            <SkillList src ={checkMarkIcon} skill ="tiktoken" ></SkillList>
-            <SkillList src ={checkMarkIcon} skill ="Django"></SkillList> 
         </div>
         <hr></hr>
         <div className={styles.skillList}>
