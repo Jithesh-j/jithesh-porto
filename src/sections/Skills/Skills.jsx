@@ -10,10 +10,15 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="JavaScript" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="SQL" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="YAML" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="JAVA" ></SkillList>
         </div>  
         <hr></hr>
         <div className={styles.skillList}>
             <SkillList src ={checkMarkIcon} skill ="React" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Spring Framework" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Spring Boot 3+" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="Hibernate" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="JPA" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="Angular" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="HTML" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="CSS" ></SkillList>
@@ -24,6 +29,14 @@ function Skills() {
             <SkillList src ={checkMarkIcon} skill ="tiktoken" ></SkillList>
             <SkillList src ={checkMarkIcon} skill ="Django"></SkillList> 
         </div>
+        <hr></hr>
+        <div className={styles.skillList}>
+            <SkillList src ={checkMarkIcon} skill ="PostgreSQL" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="MYSQL" ></SkillList>
+            <SkillList src ={checkMarkIcon} skill ="JDBC" ></SkillList>
+            
+            
+        </div>  
         <hr></hr>
         <div className={styles.skillList}>
             <SkillList src ={checkMarkIcon} skill ="GIT" ></SkillList>

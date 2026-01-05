@@ -1,11 +1,12 @@
 import styles from './ProjectStyles.module.css'
 import brickgame from '../../assets/brickgame.jpg'
 import ProjectCard from '../../common/ProjectCard'
-import freshBurger from '../../assets/fresh-burger.png'
+import OrganizationAIpic from '../../assets/OrganizationAIpic.png'
 import ecommerce from '../../assets/e-commerce.webp'
 import reRecipe from '../../assets/cookbook.webp'
 import ChatGpt from '../../assets/chatgpt.png'
 import FoodIdentifier from '../../assets/FoodIdentifier.png'
+
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
@@ -23,6 +24,13 @@ function Projects() {
                       p="My own AI chat system" 
                       githubLink = "(Github)"> 
           </ProjectCard>
+          <ProjectCard src = {OrganizationAIpic} 
+                      link = 'https://github.com/Jithesh-j/VAULT' 
+                      h3 ="VAULT AI"
+                      p="Organization Based, An Enterprise AI" 
+                      githubLink = "(Github)"> 
+          </ProjectCard>
+          
           <ProjectCard src = {FoodIdentifier} 
                       link = 'https://github.com/Jithesh-j/FoodIdentifier' 
                       h3 ="Food Identifier"
@@ -41,7 +49,7 @@ function Projects() {
                       h3 ="Re-Recipe"
                       p="A Cooking Website" 
                       githubLink = "(Github)"> 
-          </ProjectCard>
+          </ProjectCard> 
           
         </div>
     </section> 
